@@ -1,0 +1,27 @@
+.nav--items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav--items > li {
+    padding: 10px;
+}
+
+.nav--items > li:hover {
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(243, 210, 238, 0.800);
+    height: 40px;
+    padding: 30px 25px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+}
+
+nav > img {
+    width: 30px;
+}

@@ -1,0 +1,24 @@
+.footer--text {
+    font-family: "Fira Sans", sans-serif;
+    display: flex;
+}
+
+.footer--items {
+    list-style: none;
+    display: flex;
+}
+
+.footer--items > li {
+    padding: 10px;
+    color: black;
+}
+
+.footer--div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(243, 210, 238, 0.800);
+    height: 40px;
+    padding: 30px 10;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+}
